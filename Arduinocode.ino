@@ -1,6 +1,7 @@
+#include <ThingSpeak.h>
 #include "EmonLib.h"
 #include <WiFi.h>
-#include <ThingSpeak.h>
+
 const char ssid[] = "fdsfsdfsdf";
 const char password[] = "ffsdfsd";
 WiFiClient client;
