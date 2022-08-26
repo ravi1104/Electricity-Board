@@ -1,6 +1,6 @@
 #include "EmonLib.h"
 #include <WiFi.h>
-
+#include <ThingSpeak.h>
 const char ssid[] = "fdsfsdfsdf";
 const char password[] = "ffsdfsd";
 WiFiClient client;
@@ -10,7 +10,7 @@ EnergyMonitor emon;
 
 
 
-#include <ThingSpeak.h>
+
 const long CHANNEL =1111215;
 const char *WRITE_API = "adsfdsfsfsd";
 float kWh = 0;
